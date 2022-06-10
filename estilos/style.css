@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+:root {
+    --cor0: #F28907;
+    --cor1: #27370B;
+    --cor2: #F2C6A0;
+    --cor3: #8C3503;
+    --cor4: #592202;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+    background-color: beige;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: var(--cor4);
+    color: var(--cor0);
+    font: normal 2vw 'Open Sans', sans-serif;
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.349);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.322);
+}
+
+header h1 {
+    font: normal 10vw 'Tangerine', cursive;
+}
+
+nav {
+    background-color: #F2C6A0;
+    text-align: center;
+    line-height: 40px;
+    box-shadow: 1px 0px 8px rgba(0, 0, 0, 0.288);
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.322);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 13px 20px;
+}
+
+nav a:hover {
+    background-color: #8C3503;
+
+}
+
+main{
+    max-width: 600px;
+    margin: auto;
+}
+
+main p {
+    text-indent: 40px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.img_container {
+    background-image: url('/images/principal.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90vw;
+    height: 50vh;
+    margin: auto;
+}
