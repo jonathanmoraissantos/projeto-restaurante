@@ -10,6 +10,8 @@
     --cor2: #F2C6A0;
     --cor3: #8C3503;
     --cor4: #592202;
+    --fonte1: 'Tangerine', cursive;
+    --fonte2: 'Open Sans', sans-serif;
 }
 
 * {
@@ -19,14 +21,13 @@
 
 html,
 body {
-    background-color: beige;
+    background-color: white;
     font-family: 'Open Sans', sans-serif;
 }
 
 header {
     background-color: var(--cor4);
     color: var(--cor0);
-    font: normal 2vw 'Open Sans', sans-serif;
     text-align: center;
     padding: 25px;
     margin-bottom: 5px;
@@ -35,7 +36,11 @@ header {
 }
 
 header h1 {
-    font: normal 15vw 'Tangerine', cursive;
+    font: normal 7vw var(--fonte1);
+}
+
+header p{
+    font: normal 1.5vh var(--fonte2);
 }
 
 nav {
@@ -50,22 +55,25 @@ nav a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    padding: 2.25vw 4vw;
+    padding: 2vh 3vw;
 }
 
 nav a:hover {
     background-color: #8C3503;
-
 }
 
 main{
+    background-color: #f2c6a041;
     max-width: 600px;
     margin: auto;
+    margin-top: 10px;
+    border-radius: 30px;
 }
 
 main p {
     text-indent: 40px;
-    padding: 10px;
+    padding: 15px;
+    line-height: 30px;
     text-align: justify;
 }
 
@@ -76,4 +84,5 @@ main p {
     background-repeat: no-repeat;
     height: 50vh;
     margin: auto;
+    box-shadow: inset 1px 4px 8px rgba(0, 0, 0, 0.479);
 }
