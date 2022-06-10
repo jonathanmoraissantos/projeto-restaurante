@@ -35,7 +35,7 @@ header {
 }
 
 header h1 {
-    font: normal 10vw 'Tangerine', cursive;
+    font: normal 15vw 'Tangerine', cursive;
 }
 
 nav {
@@ -50,7 +50,7 @@ nav a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    padding: 13px 20px;
+    padding: 2.25vw 4vw;
 }
 
 nav a:hover {
@@ -74,7 +74,6 @@ main p {
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 90vw;
     height: 50vh;
     margin: auto;
 }
