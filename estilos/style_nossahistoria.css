@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 section {
+    display: block;
     background-color: #f2c6a041;
     max-width: 600px;
     margin: auto;
@@ -26,15 +27,22 @@ section p {
     text-align: justify;
 }
 
-.container_image {
+div {
     background-color: #f2c6a041;
     position: relative;
-    max-width: 400px;
-    max-height: 300px;
+    max-width: 300px;
+    max-height: 200px;
     height: 50vw;
     width: 60vw;
-    float: right;
-    margin: 0px 25px 0px 0px;
+    margin: auto;
+}
+
+.container_image_right{
+    margin-right: 25px;
+}
+
+.container_image_left{
+    margin-left: 25px;
 }
 
 img {

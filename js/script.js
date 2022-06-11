@@ -1,5 +1,6 @@
 function createElements() {
 
+    //setando DOM
     var nav = document.querySelector("nav#menu_principal")
     var header = document.querySelector("header#header_principal")
     var footer = document.querySelector("footer#footer_principal")
@@ -22,16 +23,19 @@ function createElements() {
     var link_historia = document.createElement('a')
     var txt_historia = document.createTextNode('História')
     link_historia.setAttribute("href", "/nossahistoria.html")
+    link_historia.setAttribute("rel", "next")
     link_historia.appendChild(txt_historia)
 
     var link_cardapio = document.createElement('a')
     var txt_cardapio = document.createTextNode('Cardápio')
     link_cardapio.setAttribute("href", "/cardapio.html")
+    link_cardapio.setAttribute("rel", "next")
     link_cardapio.appendChild(txt_cardapio)
-
+    
     var link_contato = document.createElement('a')
     var txt_contato = document.createTextNode('Contato')
     link_contato.setAttribute("href", "/contato.html")
+    link_contato.setAttribute("rel", "next")
     link_contato.appendChild(txt_contato)
 
     //cria conteúdo footer
