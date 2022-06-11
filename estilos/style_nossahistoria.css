@@ -1,27 +1,47 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-
-:root {
-    --cor0: #F28907;
-    --cor1: #27370B;
-    --cor2: #F2C6A0;
-    --cor3: #8C3503;
-    --cor4: #592202;
-    --fonte1: 'Tangerine', cursive;
-    --fonte2: 'Open Sans', sans-serif;
+section {
+    background-color: #f2c6a041;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 30px 0px 30px 0px;
 }
 
-* {
-    margin: 0px;
-    padding: 0px;
+.section_right {
+    margin-right: 20px;
+    max-width: 400px;
 }
 
-html,
-body {
-    background-color: white;
-    font-family: var(--fonte2);
+.section_left {
+    margin-left: 20px;
+    max-width: 400px;
 }
 
+section p {
+    text-indent: 40px;
+    padding: 15px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.container_image {
+    background-color: #f2c6a041;
+    position: relative;
+    max-width: 400px;
+    max-height: 300px;
+    height: 50vw;
+    width: 60vw;
+    float: right;
+    margin: 0px 25px 0px 0px;
+}
+
+img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 90%;
+}
