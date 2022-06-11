@@ -65,6 +65,11 @@ nav a:hover {
 }
 
 main{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+section {
     background-color: #f2c6a041;
     margin: auto;
     max-width: 600px;
@@ -73,7 +78,7 @@ main{
     border-radius: 30px;
 }
 
-main p {
+section p {
     text-indent: 40px;
     padding: 15px;
     line-height: 30px;
@@ -98,6 +103,6 @@ footer {
     bottom: 0;
     padding: 8px;
     width: 100%;
-    font-size: 0.8em;
+    font-size: 0.7em;
     text-align: center;
 }
