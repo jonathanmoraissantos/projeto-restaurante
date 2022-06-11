@@ -22,7 +22,7 @@
 html,
 body {
     background-color: white;
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--fonte2);
 }
 
 header {
@@ -94,10 +94,10 @@ main p {
 footer {
     background-color: #592202;
     color: white;
-    width: 100%;
-    font-size: 0.95em;
     position: fixed;
     bottom: 0;
     padding: 8px;
+    width: 100%;
+    font-size: 0.8em;
     text-align: center;
 }
