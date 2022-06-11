@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+:root {
+    --cor0: #F28907;
+    --cor1: #27370B;
+    --cor2: #F2C6A0;
+    --cor3: #8C3503;
+    --cor4: #592202;
+    --fonte1: 'Tangerine', cursive;
+    --fonte2: 'Open Sans', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+    background-color: white;
+    font-family: var(--fonte2);
+}
+
