@@ -84,7 +84,7 @@ main p {
     width: 98%;
     height: 50vh;
     margin: auto;
-    background-image: url('/images/principal.jpg');
+    background-image: url('../images/principal.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position: center left;
