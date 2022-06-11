@@ -87,7 +87,7 @@ main p {
     background-image: url('../images/principal.jpg');
     background-attachment: fixed;
     background-size: cover;
-    background-position: center left;
+    background-position: center center;
     box-shadow: inset 6px 6px 18px rgba(0, 0, 0, 0.479);
 }
 
