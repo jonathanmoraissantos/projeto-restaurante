@@ -69,7 +69,7 @@ main{
     margin: auto;
     max-width: 600px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     border-radius: 30px;
 }
 
@@ -91,10 +91,13 @@ main p {
     box-shadow: inset 6px 6px 18px rgba(0, 0, 0, 0.479);
 }
 
-footer{
+footer {
     background-color: #592202;
     color: white;
-    padding: 15px;
+    width: 100%;
+    font-size: 0.95em;
+    position: fixed;
+    bottom: 0;
+    padding: 8px;
     text-align: center;
-    font-size: 0.95em
 }
