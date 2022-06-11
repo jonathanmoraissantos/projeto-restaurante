@@ -36,11 +36,13 @@ header {
 }
 
 header h1 {
-    font: normal 7vw var(--fonte1);
+    font-family: var(--fonte1);
+    font-size: calc(16px + (8/1200) * 100 * 10vw);
+    font-weight: normal;
 }
 
 header p{
-    font: normal 1.5vh var(--fonte2);
+    font: normal 0.8em var(--fonte2);
 }
 
 nav {
@@ -64,9 +66,10 @@ nav a:hover {
 
 main{
     background-color: #f2c6a041;
-    max-width: 600px;
     margin: auto;
-    margin-top: 10px;
+    max-width: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     border-radius: 30px;
 }
 
@@ -78,11 +81,20 @@ main p {
 }
 
 .img_container {
+    width: 98%;
+    height: 50vh;
+    margin: auto;
     background-image: url('/images/principal.jpg');
     background-attachment: fixed;
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 50vh;
-    margin: auto;
-    box-shadow: inset 1px 4px 8px rgba(0, 0, 0, 0.479);
+    background-position: center left;
+    box-shadow: inset 6px 6px 18px rgba(0, 0, 0, 0.479);
+}
+
+footer{
+    background-color: #592202;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 0.95em
 }
