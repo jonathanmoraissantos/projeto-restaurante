@@ -17,24 +17,24 @@ function createElements() {
     //cria itens do menu com links e seus respectivos labels, define endereços dos links e seta a qual elementos eles pertencem
     var link_principal = document.createElement('a')
     var txt_principal = document.createTextNode('Principal')
-    link_principal.setAttribute("href", "projeto-restaurante/index.html")
+    link_principal.setAttribute("href", "./index.html")
     link_principal.appendChild(txt_principal)
 
     var link_historia = document.createElement('a')
     var txt_historia = document.createTextNode('História')
-    link_historia.setAttribute("href", "projeto-restaurante/nossahistoria.html")
+    link_historia.setAttribute("href", "./nossahistoria.html")
     link_historia.setAttribute("rel", "next")
     link_historia.appendChild(txt_historia)
 
     var link_cardapio = document.createElement('a')
     var txt_cardapio = document.createTextNode('Cardápio')
-    link_cardapio.setAttribute("href", "projeto-restaurante/cardapio.html")
+    link_cardapio.setAttribute("href", "./cardapio.html")
     link_cardapio.setAttribute("rel", "next")
     link_cardapio.appendChild(txt_cardapio)
     
     var link_contato = document.createElement('a')
     var txt_contato = document.createTextNode('Contato')
-    link_contato.setAttribute("href", "projeto-restaurante/contato.html")
+    link_contato.setAttribute("href", "./contato.html")
     link_contato.setAttribute("rel", "next")
     link_contato.appendChild(txt_contato)
 
