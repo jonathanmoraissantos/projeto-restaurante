@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+h2 {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+div{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: inset 8px 8px 8px rgba(0, 0, 0, 0.322);
+    border-radius: 3px;
+}
+
+#div_churrasco{
+    background-image: url(../images/churrasco.jpg);
+}
+
+#div_buffet{
+    background-image: url(../images/buffet.jpg);
+}
+
+#div_saladas{
+    background-image: url(../images/salada.jpg);
+}
+
+section {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    background-color: #f2c6a0ce;
+    width: 150px;
+    border-radius: 30px 0px 30px 0px;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+section p {
+    font-family: monospace;
+    font-size: 1em;
+    font-weight: lighter;
+}
+    
