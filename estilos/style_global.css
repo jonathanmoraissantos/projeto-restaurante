@@ -46,7 +46,7 @@ header p{
 }
 
 nav {
-    background-color: #F2C6A0;
+    background-color: var(--cor2);
     text-align: center;
     line-height: 40px;
     box-shadow: 1px 0px 8px rgba(0, 0, 0, 0.288);

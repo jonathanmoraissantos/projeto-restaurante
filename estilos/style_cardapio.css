@@ -21,14 +21,17 @@ div{
 
 #div_churrasco{
     background-image: url(../images/churrasco.jpg);
+    background-position: center center;
 }
 
 #div_buffet{
     background-image: url(../images/buffet.jpg);
+    background-position: center left;
 }
 
 #div_saladas{
     background-image: url(../images/salada.jpg);
+    background-position: center right;
 }
 
 section {

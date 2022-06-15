@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrascaria Morais | Fale conosco</title>
+    <link rel="stylesheet" href="estilos/style_global.css">
+    <link rel="stylesheet" href="estilos/style_contato.css">
+    <script src="js/script.js"></script>
+</head>
+<body onload="createElements()">
+    <header id="header_principal">
+
+    </header>
+    <nav id="menu_principal">
+
+    </nav>
+    <main>
+        <h1>Reservas</h1>
+        <section>
+            <form action="submit">
+                <label>Nome completo<input type="text" name="txtNome" id="txtNome"></label>
+                <label>Endereço<input type="text" name="txtEndereco" id="txtEndereco"></label>
+                <label>Complemento <input type="text" name="txtComplemento" id="txtComplemento"></label>
+                <label>E-mail<input type="email" name="txtEmail" id="txtEmail"></label>
+                <label>Telefone<input type="tel" name="txtTelefone" id="txtTelefone" pattern="([0-9]{2})-[0-9]{4}-[0-9]{5}" minlength="10" maxlength="11" placeholder="(XX) XXXXX-XXXX"></label>
+                <label>Quantidade de mesas<input type="number" name="txtQtdMesas" id="txtQtdMesas" min="1" max="99" size="2"></label><br><br>
+                <input type="button" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <footer id="footer_principal">
+
+    </footer>
+</body>
+</html>
